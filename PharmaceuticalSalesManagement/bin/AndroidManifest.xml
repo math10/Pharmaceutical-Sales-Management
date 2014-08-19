@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lost.pharmaceuticalsalesmanagement"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.MainPage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.AdminMenuPage"
+            android:label="@string/title_activity_admin_menu_page" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.MPOsMenuPage"
+            android:label="@string/title_activity_mpos_menu_page" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.SalesManagerMenuPage"
+            android:label="@string/title_activity_sales_manager_menu_page" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.ChangePassword"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Admin_manage_medicin"
+            android:label="@string/title_activity_admin_manage_medicin" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Medicine_info"
+            android:label="@string/title_activity_medicine_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Update_medicine_info"
+            android:label="@string/title_activity_update_medicine_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Add_new_medicine"
+            android:label="@string/title_activity_add_new_medicine" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Admin_manage_mpo"
+            android:label="@string/title_activity_admin_manage_mpo" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Mpo_info"
+            android:label="@string/title_activity_mpo_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Add_new_mpo"
+            android:label="@string/title_activity_add_new_mpo" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Update_mpo_info"
+            android:label="@string/title_activity_update_mpo_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Admin_manage_sm"
+            android:label="@string/title_activity_admin_manage_sm" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Sm_info"
+            android:label="@string/title_activity_sm_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Update_sm_info"
+            android:label="@string/title_activity_update_sm_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Add_new_sm"
+            android:label="@string/title_activity_add_new_sm" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Sm_manage_medicine"
+            android:label="@string/title_activity_mpo_manage_medicine" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Update_medicine_stock"
+            android:label="@string/title_activity_update_medicine_stock" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Admin_manage_area"
+            android:label="@string/title_activity_admin_manage_area" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Area_info"
+            android:label="@string/title_activity_area_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Update_area_info"
+            android:label="@string/title_activity_update_area_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Add_new_area"
+            android:label="@string/title_activity_add_new_area" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Sm_manage_order"
+            android:label="@string/title_activity_sm_manage_order" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Mpo_entry_order"
+            android:label="@string/title_activity_mpo_entry_order" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Medicine_entry"
+            android:label="@string/title_activity_medicine_entry" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Sm_order_manage_pre"
+            android:label="@string/title_activity_medicine_entry" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Order_info"
+            android:label="@string/title_activity_order_info" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Medicine_list"
+            android:label="@string/title_activity_medicine_list" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Show"
+            android:label="@string/title_activity_medicine_list" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Current_order"
+            android:label="@string/title_activity_current_order" >
+        </activity>
+        <activity
+            android:name="lost.pharmaceuticalsalesmanagement.Order_info_mpo"
+            android:label="@string/title_activity_order_info_mpo" >
+        </activity>
+    </application>
+
+</manifest>

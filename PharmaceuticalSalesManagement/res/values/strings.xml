@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pharmaceutical Sales Management</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin_menu_page">AdminMenuPage</string>
+    <string name="title_activity_mpos_menu_page">MPOs Menu Page</string>
+    <string name="title_activity_sales_manager_menu_page">Sales Manager Menu Page</string>
+
+    <string-array name="ranking">
+        <item>Admin</item>
+        <item>MPOs</item>
+        <item>Sales Managers</item>
+    </string-array>
+
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_admin_manage_medicin">Admin manage medicin</string>
+    <string name="title_activity_medicine_info">Medicine info</string>
+    <string name="title_activity_update_medicine_info">Update medicine info</string>
+    <string name="title_activity_add_new_medicine">Add new medicine</string>
+    <string name="title_activity_admin_manage_mpo">Admin manage mpo</string>
+    <string name="title_activity_mpo_info">Mpo_info</string>
+    <string name="title_activity_add_new_mpo">Add_new_mpo</string>
+    <string name="title_activity_update_mpo_info">Update_mpo_info</string>
+    <string name="title_activity_admin_manage_sm">Admin_manage_sm</string>
+    <string name="title_activity_sm_info">Sm_info</string>
+    <string name="title_activity_update_sm_info">Update_sm_info</string>
+    <string name="title_activity_add_new_sm">Add_new_sm</string>
+    <string name="title_activity_mpo_manage_medicine">Mpo_manage_medicine</string>
+    <string name="title_activity_update_medicine_stock">Update_medicine_stock</string>
+    <string name="title_activity_admin_manage_area">Admin_manage_area</string>
+    <string name="title_activity_area_info">Area_info</string>
+    <string name="title_activity_update_area_info">Update_area_info</string>
+    <string name="title_activity_add_new_area">Add_new_area</string>
+    <string name="title_activity_sm_manage_order">Sm_manage_order</string>
+    <string name="title_activity_mpo_entry_order">Mpo_entry_order</string>
+    <string name="title_activity_medicine_entry">Medicine_entry</string>
+    <string name="title_activity_order_info">Order_info</string>
+    <string name="title_activity_medicine_list">Medicine_list</string>
+    <string name="title_activity_current_order">Current_order</string>
+    <string name="title_activity_order_info_mpo">Order_info_mpo</string>
+
+</resources>

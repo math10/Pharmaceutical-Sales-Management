@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MPOsMenuPage" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="435dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/eOdr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:text="Entry Order" />
+
+            <Button
+                android:id="@+id/cOdr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/eOdr"
+                android:layout_below="@+id/eOdr"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:text="Current Order" />
+
+            <Button
+                android:id="@+id/cPasswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cOdr"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:text="Change Password" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

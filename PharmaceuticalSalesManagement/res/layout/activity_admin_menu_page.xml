@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AdminMenuPage" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="524dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/mSM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/mMPO"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="47dp"
+                android:text="Manage Sales Manegers" />
+
+            <Button
+                android:id="@+id/mMPO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mSM"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/mSM"
+                android:layout_marginTop="47dp"
+                android:text="Manage MPOs" />
+
+            <Button
+                android:id="@+id/mProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mSM"
+                android:layout_alignRight="@+id/mSM"
+                android:layout_below="@+id/mSM"
+                android:layout_marginTop="47dp"
+                android:text="Manage Product" />
+
+            <Button
+                android:id="@+id/mArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mProduct"
+                android:layout_alignRight="@+id/mProduct"
+                android:layout_below="@+id/mProduct"
+                android:layout_marginTop="47dp"
+                android:text="Manage Area" />
+
+            <Button
+                android:id="@+id/cPasswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mArea"
+                android:layout_alignRight="@+id/mArea"
+                android:layout_below="@+id/mArea"
+                android:layout_marginTop="47dp"
+                android:text="Change Password" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
